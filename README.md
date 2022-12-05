@@ -6,5 +6,4 @@
 
 
 
-https://adrabalde.github.github.io/EXAM_THYP_21-22/index.html
-
+https://adrabalde.github.io/Examen-THYP-du-5-d-cembre-2022/index.html
