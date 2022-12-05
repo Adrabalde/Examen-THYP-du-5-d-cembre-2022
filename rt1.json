@@ -1,0 +1,43 @@
+{
+    "o:label": "NomChercheur",
+    "o:resource_template_property": [
+        {
+            "o:alternate_label": "Domaine de web s\u00e9mantique",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource",
+                    "label": "All"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "title",
+            "label": "Title"
+        },
+        {
+            "o:alternate_label": "Ce monsieur est un chercheur dans le domaine de web s\u00e9mantique",
+            "o:alternate_comment": null,
+            "o:is_required": false,
+            "o:is_private": false,
+            "data_types": [
+                {
+                    "name": "resource",
+                    "label": "All"
+                }
+            ],
+            "vocabulary_namespace_uri": "http:\/\/purl.org\/dc\/terms\/",
+            "vocabulary_label": "Dublin Core",
+            "local_name": "description",
+            "label": "Description"
+        }
+    ],
+    "o:resource_class": {
+        "vocabulary_namespace_uri": "https:\/\/chercheurs.com",
+        "vocabulary_label": "Chercheurs",
+        "local_name": "chercheurs.comSemanticPosition",
+        "label": "chercheurs"
+    }
+}
