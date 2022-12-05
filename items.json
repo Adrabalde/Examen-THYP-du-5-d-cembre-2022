@@ -1,0 +1,176 @@
+[
+    {
+      "@context": "http://localhost:8000/api-context",
+      "@id": "http://localhost:8000/api/items/11",
+      "@type": "o:Item",
+      "o:id": 11,
+      "o:is_public": true,
+      "o:owner": {
+        "@id": "http://localhost:8000/api/users/1",
+        "o:id": 1
+      },
+      "o:resource_class": null,
+      "o:resource_template": null,
+      "o:thumbnail": null,
+      "o:title": "Je suis chercheurs à Paris 8",
+      "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+      },
+      "o:created": {
+        "@value": "2022-12-05T10:34:49+00:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "o:modified": {
+        "@value": "2022-12-05T10:34:49+00:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "o:media": [],
+      "o:item_set": [],
+      "o:site": [],
+      "dcterms:title": [
+        {
+          "type": "literal",
+          "property_id": 1,
+          "property_label": "Title",
+          "is_public": true,
+          "@value": "Je suis chercheurs à Paris 8"
+        }
+      ],
+      "dcterms:date": [
+        {
+          "type": "literal",
+          "property_id": 7,
+          "property_label": "Date",
+          "is_public": true,
+          "@value": "Le 06 Décembre 2022"
+        }
+      ]
+    },
+    {
+      "@context": "http://localhost:8000/api-context",
+      "@id": "http://localhost:8000/api/items/12",
+      "@type": [
+        "o:Item",
+        "Chercheurs:chercheurs.comCriblePosition"
+      ],
+      "o:id": 12,
+      "o:is_public": true,
+      "o:owner": {
+        "@id": "http://localhost:8000/api/users/1",
+        "o:id": 1
+      },
+      "o:resource_class": {
+        "@id": "http://localhost:8000/api/resource_classes/125",
+        "o:id": 125
+      },
+      "o:resource_template": {
+        "@id": "http://localhost:8000/api/resource_templates/11",
+        "o:id": 11
+      },
+      "o:thumbnail": null,
+      "o:title": "Enseignant à Paris 8",
+      "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+      },
+      "o:created": {
+        "@value": "2022-12-05T10:35:22+00:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "o:modified": {
+        "@value": "2022-12-05T10:35:41+00:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "o:media": [],
+      "o:item_set": [],
+      "o:site": [],
+      "dcterms:title": [
+        {
+          "type": "literal",
+          "property_id": 1,
+          "property_label": "Title",
+          "is_public": true,
+          "@value": "Enseignant à Paris 8"
+        }
+      ],
+      "dcterms:date": [
+        {
+          "type": "literal",
+          "property_id": 7,
+          "property_label": "Date",
+          "is_public": true,
+          "@value": "Depuis plus de 10 ans "
+        }
+      ]
+    },
+    {
+      "@context": "http://localhost:8000/api-context",
+      "@id": "http://localhost:8000/api/items/15",
+      "@type": [
+        "o:Item",
+        "Chercheurs:chercheurs.comCrible"
+      ],
+      "o:id": 15,
+      "o:is_public": true,
+      "o:owner": {
+        "@id": "http://localhost:8000/api/users/1",
+        "o:id": 1
+      },
+      "o:resource_class": {
+        "@id": "http://localhost:8000/api/resource_classes/124",
+        "o:id": 124
+      },
+      "o:resource_template": {
+        "@id": "http://localhost:8000/api/resource_templates/12",
+        "o:id": 12
+      },
+      "o:thumbnail": null,
+      "o:title": "Scientifique",
+      "thumbnail_display_urls": {
+        "large": null,
+        "medium": null,
+        "square": null
+      },
+      "o:created": {
+        "@value": "2022-12-05T10:41:59+00:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "o:modified": {
+        "@value": "2022-12-05T10:42:53+00:00",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "o:media": [],
+      "o:item_set": [],
+      "o:site": [],
+      "dcterms:title": [
+        {
+          "type": "literal",
+          "property_id": 1,
+          "property_label": "Title",
+          "is_public": true,
+          "@value": "Scientifique"
+        }
+      ],
+      "dcterms:subject": [
+        {
+          "type": "literal",
+          "property_id": 3,
+          "property_label": "Subject",
+          "is_public": true,
+          "@value": "Il est scrientifique ce monsieur"
+        }
+      ],
+      "dcterms:date": [
+        {
+          "type": "literal",
+          "property_id": 7,
+          "property_label": "Date",
+          "is_public": true,
+          "@value": "Depuis fort longtemps "
+        }
+      ]
+    }
+  ]
